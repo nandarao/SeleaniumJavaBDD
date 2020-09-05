@@ -48,17 +48,17 @@ public class MethodsImplementation implements UseWebDriverElements {
 				log.info(logValue);
 				break;
 			case getAttribute:
-				log.info(logValue);
+				log.info("Attribute Value : "+this.driver.getTitle()+" : "+logValue);
 				return this.driver.findElement(this.by.getLocater(locator, Locator_Value)).getAttribute(action_values);
 			case getText:
-				log.info(logValue);
+				log.info("Text Value : "+this.driver.getTitle()+" : "+logValue);
 				return this.driver.findElement(this.by.getLocater(locator, Locator_Value)).getText();
 			case get:
 				log.info(logValue);
 				this.driver.get(action_values);
 				break;
 			case getTitle:
-				log.info(logValue);
+				log.info("Title Value : "+this.driver.getTitle()+" : "+logValue);
 				return this.driver.getTitle();
 			default:
 				log.warn("Class Name : " + UseWebElement.class.getName() + " values of -> locator : " + locator + ","

@@ -1,0 +1,149 @@
+[INFO ] 2020-09-03 18:55:33.802 [main] Java.stepDefinitioins.LoingTestSteps -   MSG  :  FireFox Browser Initiated
+[INFO ] 2020-09-03 18:57:12.351 [main] Java.stepDefinitioins.LoingTestSteps -   MSG  :  FireFox Browser Initiated
+[INFO ] 2020-09-03 18:58:12.680 [main] Java.stepDefinitioins.LoingTestSteps -   MSG  :  FireFox Browser Initiated
+[INFO ] 2020-09-03 18:59:53.129 [main] Java.stepDefinitioins.LoingTestSteps -   MSG  :  FireFox Browser Initiated
+[INFO ] 2020-09-03 18:59:53.147 [main] Java.reusableFunations.MethodsImplementation -   MSG  :  URL entered
+[ERROR] 2020-09-03 18:59:53.486 [main] Java.reusableFunations.MethodsImplementation -   MSG  :  Class Name : Java.reusableFunations.UseWebElement values of -> locator : null,   Locator_Value : null,   Action : get,   Action_values : //admin-demo.nopcommerce.com/,   LogValue : URL entered,   Exception Msg : Malformed URL: //admin-demo.nopcommerce.com/ is not a valid URL.
+Build info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'
+System info: host: 'C4J0PT2', ip: '10.123.82.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 72.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200117190643, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 19904, moz:profile: C:\Users\kishorenm\AppData\..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 7b003967-5a10-495e-ac5b-25e5308b6c89
+[INFO ] 2020-09-03 18:59:53.514 [main] Java.reusableFunations.MethodsImplementation -   MSG  :  Login page title matching with expected
+[INFO ] 2020-09-03 19:02:41.394 [main] Java.stepDefinitioins.LoingTestSteps -   MSG  :  FireFox Browser Initiated
+[INFO ] 2020-09-03 19:02:41.410 [main] Java.reusableFunations.MethodsImplementation -   MSG  :  URL entered
+[ERROR] 2020-09-03 19:02:42.263 [main] Java.reusableFunations.MethodsImplementation -   MSG  :  Class Name : Java.reusableFunations.UseWebElement values of -> locator : null,   Locator_Value : null,   Action : get,   Action_values : //admin-demo.nopcommerce.com/,   LogValue : URL entered,   Exception Msg : Malformed URL: //admin-demo.nopcommerce.com/ is not a valid URL.
+Build info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'
+System info: host: 'C4J0PT2', ip: '10.123.82.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 72.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200117190643, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 17496, moz:profile: C:\Users\kishorenm\AppData\..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 8ffedbfd-c815-419e-82b9-cd3d9477d64d
+[INFO ] 2020-09-03 19:02:42.263 [main] Java.reusableFunations.MethodsImplementation -   MSG  :  Login page title matching with expected
+[INFO ] 2020-09-03 19:04:22.507 [main] Java.stepDefinitioins.LoingTestSteps -   MSG  :  FireFox Browser Initiated
+[INFO ] 2020-09-03 19:04:22.524 [main] Java.reusableFunations.MethodsImplementation -   MSG  :  URL entered
+[INFO ] 2020-09-03 19:04:27.319 [main] Java.reusableFunations.MethodsImplementation -   MSG  :  Login page title matching with expected
+[INFO ] 2020-09-03 19:04:27.326 [main] Java.reusableFunations.MethodsImplementation -   MSG  :  Login page title matching with expected
+[ERROR] 2020-09-03 19:04:27.334 [main] Java.stepDefinitioins.LoingTestSteps -   MSG  :  null
+[INFO ] 2020-09-03 19:05:46.906 [main] Java.stepDefinitioins.LoingTestSteps -   MSG  :  FireFox Browser Initiated
+[INFO ] 2020-09-03 19:05:46.920 [main] Java.reusableFunations.MethodsImplementation -   MSG  :  URL entered
+[INFO ] 2020-09-03 19:05:58.396 [main] Java.reusableFunations.MethodsImplementation -   MSG  :  Login page title matching with expected
+[ERROR] 2020-09-03 19:05:58.413 [main] Java.stepDefinitioins.LoingTestSteps -   MSG  :  null
+[INFO ] 2020-09-03 19:06:12.985 [main] Java.stepDefinitioins.LoingTestSteps -   MSG  :  FireFox Browser Initiated
+[INFO ] 2020-09-03 19:06:12.999 [main] Java.reusableFunations.MethodsImplementation -   MSG  :  URL entered
+[INFO ] 2020-09-03 19:06:21.766 [main] Java.reusableFunations.MethodsImplementation -   MSG  :  Login page title matching with expected
+[ERROR] 2020-09-03 19:06:21.777 [main] Java.stepDefinitioins.LoingTestSteps -   MSG  :  null
+[INFO ] 2020-09-03 19:07:04.064 [main] Java.stepDefinitioins.LoingTestSteps -   MSG  :  FireFox Browser Initiated
+[INFO ] 2020-09-03 19:07:04.079 [main] Java.reusableFunations.MethodsImplementation -   MSG  :  URL entered
+[INFO ] 2020-09-03 19:07:07.373 [main] Java.reusableFunations.MethodsImplementation -   MSG  :  Login page title matching with expected
+[ERROR] 2020-09-03 19:07:07.384 [main] Java.stepDefinitioins.LoingTestSteps -   MSG  :  null
+[INFO ] 2020-09-03 19:07:43.263 [main] Java.stepDefinitioins.LoingTestSteps -   MSG  :  FireFox Browser Initiated
+[INFO ] 2020-09-03 19:07:43.278 [main] Java.reusableFunations.MethodsImplementation -   MSG  :  URL entered
+[INFO ] 2020-09-03 19:07:46.371 [main] Java.reusableFunations.MethodsImplementation -   MSG  :  Login page title matching with expected
+[INFO ] 2020-09-03 19:28:57.813 [main] Java.stepDefinitioins.LoingTestSteps -   MSG  :  FireFox Browser Initiated
+[INFO ] 2020-09-03 19:28:58.003 [main] Java.reusableFunations.MethodsImplementation -   MSG  :  URL entered
+[INFO ] 2020-09-03 19:29:01.389 [main] Java.reusableFunations.MethodsImplementation -   MSG  :  Login page title matching with expected
+[ERROR] 2020-09-03 19:29:01.435 [main] Java.stepDefinitioins.LoingTestSteps -   MSG  :  null
+[INFO ] 2020-09-03 19:31:23.884 [main] Java.stepDefinitioins.LoingTestSteps -   MSG  :  FireFox Browser Initiated
+[INFO ] 2020-09-03 19:31:23.899 [main] Java.reusableFunations.MethodsImplementation -   MSG  :  URL entered
+[INFO ] 2020-09-03 19:31:36.103 [main] Java.reusableFunations.MethodsImplementation -   MSG  :  Login page title matching with expected
+[ERROR] 2020-09-03 19:31:36.111 [main] Java.stepDefinitioins.LoingTestSteps -   MSG  :  null
+[INFO ] 2020-09-03 19:32:33.059 [main] Java.stepDefinitioins.LoingTestSteps -   MSG  :  FireFox Browser Initiated
+[INFO ] 2020-09-03 19:32:33.089 [main] Java.reusableFunations.MethodsImplementation -   MSG  :  URL entered
+[INFO ] 2020-09-03 19:32:38.380 [main] Java.reusableFunations.MethodsImplementation -   MSG  :  Login page title matching with expected
+[ERROR] 2020-09-03 19:32:38.394 [main] Java.stepDefinitioins.LoingTestSteps -   MSG  :  null
+[INFO ] 2020-09-03 19:33:10.287 [main] Java.stepDefinitioins.LoingTestSteps -   MSG  :  FireFox Browser Initiated
+[INFO ] 2020-09-03 19:33:10.458 [main] Java.reusableFunations.MethodsImplementation -   MSG  :  URL entered
+[INFO ] 2020-09-03 19:37:21.648 [main] Java.stepDefinitioins.LoingTestSteps -   MSG  :  FireFox Browser Initiated
+[INFO ] 2020-09-03 19:37:21.748 [main] Java.reusableFunations.MethodsImplementation -   MSG  :  URL entered
+[ERROR] 2020-09-03 19:37:27.963 [main] Java.stepDefinitioins.LoingTestSteps -   MSG  :  null
+[INFO ] 2020-09-03 19:37:48.905 [main] Java.stepDefinitioins.LoingTestSteps -   MSG  :  FireFox Browser Initiated
+[INFO ] 2020-09-03 19:37:48.924 [main] Java.reusableFunations.MethodsImplementation -   MSG  :  URL entered
+[ERROR] 2020-09-03 19:38:52.144 [main] Java.stepDefinitioins.LoingTestSteps -   MSG  :  null
+[INFO ] 2020-09-03 19:51:28.931 [main] Java.stepDefinitioins.LoingTestSteps -   MSG  :  FireFox Browser Initiated
+[INFO ] 2020-09-03 19:51:28.955 [main] Java.reusableFunations.MethodsImplementation -   MSG  :  URL entered
+[ERROR] 2020-09-03 19:51:33.499 [main] Java.stepDefinitioins.LoingTestSteps -   MSG  :  null
+[INFO ] 2020-09-03 19:53:31.020 [main] Java.stepDefinitioins.LoingTestSteps -   MSG  :  FireFox Browser Initiated
+[INFO ] 2020-09-03 19:53:31.032 [main] Java.reusableFunations.MethodsImplementation -   MSG  :  URL entered
+[INFO ] 2020-09-03 19:53:35.304 [main] Java.reusableFunations.MethodsImplementation -   MSG  :  Login page title matching with expected
+[ERROR] 2020-09-03 19:53:35.314 [main] Java.stepDefinitioins.LoingTestSteps -   MSG  :  null
+[INFO ] 2020-09-03 19:54:19.761 [main] Java.stepDefinitioins.LoingTestSteps -   MSG  :  FireFox Browser Initiated
+[INFO ] 2020-09-03 19:54:19.778 [main] Java.reusableFunations.MethodsImplementation -   MSG  :  URL entered
+[INFO ] 2020-09-03 19:54:25.082 [main] Java.reusableFunations.MethodsImplementation -   MSG  :  Login page title matching with expected
+[ERROR] 2020-09-03 19:54:25.098 [main] Java.stepDefinitioins.LoingTestSteps -   MSG  :  null
+[INFO ] 2020-09-03 20:00:46.474 [main] Java.stepDefinitioins.LoingTestSteps -   MSG  :  FireFox Browser Initiated
+[INFO ] 2020-09-03 20:00:46.506 [main] Java.reusableFunations.MethodsImplementation -   MSG  :  URL entered
+[INFO ] 2020-09-03 20:00:50.674 [main] Java.reusableFunations.MethodsImplementation -   MSG  :  Title Value : Your store. Login : Login page title matching with expected
+[ERROR] 2020-09-03 20:00:50.682 [main] Java.stepDefinitioins.LoingTestSteps -   MSG  :  null
+[INFO ] 2020-09-03 20:02:46.794 [main] Java.stepDefinitioins.LoingTestSteps -   MSG  :  FireFox Browser Initiated
+[INFO ] 2020-09-03 20:02:46.827 [main] Java.reusableFunations.MethodsImplementation -   MSG  :  URL entered
+[INFO ] 2020-09-03 20:02:49.969 [main] Java.reusableFunations.MethodsImplementation -   MSG  :  Title Value : Your store. Login : Login page title matching with expected
+[ERROR] 2020-09-03 20:02:49.977 [main] Java.stepDefinitioins.LoingTestSteps -   MSG  :  null
+[INFO ] 2020-09-03 20:04:16.477 [main] Java.stepDefinitioins.LoingTestSteps -   MSG  :  FireFox Browser Initiated
+[INFO ] 2020-09-03 20:04:16.490 [main] Java.reusableFunations.MethodsImplementation -   MSG  :  URL entered
+[INFO ] 2020-09-03 20:04:19.716 [main] Java.reusableFunations.MethodsImplementation -   MSG  :  Title Value : Your store. Login : Login page title matching with expected
+[ERROR] 2020-09-03 20:04:19.726 [main] Java.stepDefinitioins.LoingTestSteps -   MSG  :  null
+[INFO ] 2020-09-03 20:06:48.653 [main] Java.stepDefinitioins.LoingTestSteps -   MSG  :  FireFox Browser Initiated
+[INFO ] 2020-09-03 20:06:48.670 [main] Java.reusableFunations.MethodsImplementation -   MSG  :  URL entered
+[INFO ] 2020-09-03 20:06:52.095 [main] Java.reusableFunations.MethodsImplementation -   MSG  :  Title Value : Your store. Login : Login page title matching with expected
+[ERROR] 2020-09-03 20:06:52.103 [main] Java.stepDefinitioins.LoingTestSteps -   MSG  :  null
+[INFO ] 2020-09-03 20:08:17.414 [main] Java.stepDefinitioins.LoingTestSteps -   MSG  :  FireFox Browser Initiated
+[INFO ] 2020-09-03 20:08:17.451 [main] Java.reusableFunations.MethodsImplementation -   MSG  :  URL entered
+[INFO ] 2020-09-03 20:08:20.873 [main] Java.reusableFunations.MethodsImplementation -   MSG  :  Title Value : Your store. Login : Login page title matching with expected
+[INFO ] 2020-09-03 20:08:20.888 [main] Java.utilitys.ConfigScreenshot -   MSG  :  :::::::::::::::::::::::::::::::::::::::::::::.\src\main\java\Java\screenshots\::::::::::::::::::::::::::::::::::::
+[INFO ] 2020-09-03 20:08:21.239 [main] Java.stepDefinitioins.LoingTestSteps - XXXXXXXXXXXXXXXXXXXXXXX           -E---N---D-            XXXXXXXXXXXXXXXXXXXXXX
+[INFO ] 2020-09-03 20:08:21.239 [main] Java.stepDefinitioins.LoingTestSteps - X
+[INFO ] 2020-09-03 20:08:21.239 [main] Java.stepDefinitioins.LoingTestSteps - X
+[INFO ] 2020-09-03 20:08:21.240 [main] Java.stepDefinitioins.LoingTestSteps - X
+[INFO ] 2020-09-03 20:08:21.240 [main] Java.stepDefinitioins.LoingTestSteps - X
+[INFO ] 2020-09-03 20:11:09.090 [main] Java.stepDefinitioins.LoingTestSteps -   MSG  :  FireFox Browser Initiated
+[INFO ] 2020-09-03 20:11:09.120 [main] Java.reusableFunations.MethodsImplementation -   MSG  :  URL entered
+[INFO ] 2020-09-03 20:11:11.467 [main] Java.reusableFunations.MethodsImplementation -   MSG  :  Title Value : Your store. Login : Login page title matching with expected
+[INFO ] 2020-09-03 20:11:11.572 [main] Java.stepDefinitioins.LoingTestSteps - XXXXXXXXXXXXXXXXXXXXXXX           -E---N---D-            XXXXXXXXXXXXXXXXXXXXXX
+[INFO ] 2020-09-03 20:11:11.572 [main] Java.stepDefinitioins.LoingTestSteps - X
+[INFO ] 2020-09-03 20:11:11.572 [main] Java.stepDefinitioins.LoingTestSteps - X
+[INFO ] 2020-09-03 20:11:11.572 [main] Java.stepDefinitioins.LoingTestSteps - X
+[INFO ] 2020-09-03 20:11:11.572 [main] Java.stepDefinitioins.LoingTestSteps - X
+[INFO ] 2020-09-03 20:14:50.979 [main] Java.stepDefinitioins.LoingTestSteps -   MSG  :  FireFox Browser Initiated
+[INFO ] 2020-09-03 20:14:50.993 [main] Java.reusableFunations.MethodsImplementation -   MSG  :  URL entered
+[INFO ] 2020-09-03 20:14:54.129 [main] Java.reusableFunations.MethodsImplementation -   MSG  :  Title Value : Your store. Login : Login page title matching with expected
+[INFO ] 2020-09-03 20:14:54.226 [main] Java.stepDefinitioins.LoingTestSteps - XXXXXXXXXXXXXXXXXXXXXXX           -E---N---D-            XXXXXXXXXXXXXXXXXXXXXX
+[INFO ] 2020-09-03 20:14:54.226 [main] Java.stepDefinitioins.LoingTestSteps - X
+[INFO ] 2020-09-03 20:14:54.226 [main] Java.stepDefinitioins.LoingTestSteps - X
+[INFO ] 2020-09-03 20:14:54.226 [main] Java.stepDefinitioins.LoingTestSteps - X
+[INFO ] 2020-09-03 20:14:54.226 [main] Java.stepDefinitioins.LoingTestSteps - X
+[INFO ] 2020-09-05 11:40:51.656 [main] Java.stepDefinitioins.LoingTestSteps -   MSG  :  FireFox Browser Initiated
+[INFO ] 2020-09-05 11:40:51.828 [main] Java.reusableFunations.MethodsImplementation -   MSG  :  URL entered
+[INFO ] 2020-09-05 11:40:55.746 [main] Java.stepDefinitioins.LoingTestSteps -   MSG  :  URL entered
+[INFO ] 2020-09-05 11:40:55.812 [main] Java.reusableFunations.MethodsImplementation -   MSG  :  Title Value : Your store. Login : Login page title matching with expected
+[INFO ] 2020-09-05 11:40:56.174 [main] Java.stepDefinitioins.LoingTestSteps - XXXXXXXXXXXXXXXXXXXXXXX           -E---N---D-            XXXXXXXXXXXXXXXXXXXXXX
+[INFO ] 2020-09-05 11:40:56.175 [main] Java.stepDefinitioins.LoingTestSteps - X
+[INFO ] 2020-09-05 11:40:56.175 [main] Java.stepDefinitioins.LoingTestSteps - X
+[INFO ] 2020-09-05 11:40:56.175 [main] Java.stepDefinitioins.LoingTestSteps - X
+[INFO ] 2020-09-05 11:40:56.176 [main] Java.stepDefinitioins.LoingTestSteps - X
+[INFO ] 2020-09-05 11:42:10.227 [main] Java.stepDefinitioins.LoingTestSteps -   MSG  :  FireFox Browser Initiated
+[INFO ] 2020-09-05 11:42:10.270 [main] Java.reusableFunations.MethodsImplementation -   MSG  :  URL entered
+[INFO ] 2020-09-05 11:42:13.813 [main] Java.stepDefinitioins.LoingTestSteps -   MSG  :  URL entered
+[INFO ] 2020-09-05 11:42:13.832 [main] Java.reusableFunations.MethodsImplementation -   MSG  :  Title Value : Your store. Login : Login page title matching with expected
+[INFO ] 2020-09-05 11:42:16.101 [main] Java.stepDefinitioins.LoingTestSteps - XXXXXXXXXXXXXXXXXXXXXXX           -E---N---D-            XXXXXXXXXXXXXXXXXXXXXX
+[INFO ] 2020-09-05 11:42:16.101 [main] Java.stepDefinitioins.LoingTestSteps - X
+[INFO ] 2020-09-05 11:42:16.101 [main] Java.stepDefinitioins.LoingTestSteps - X
+[INFO ] 2020-09-05 11:42:16.101 [main] Java.stepDefinitioins.LoingTestSteps - X
+[INFO ] 2020-09-05 11:42:16.101 [main] Java.stepDefinitioins.LoingTestSteps - X
+[INFO ] 2020-09-05 11:43:01.574 [main] Java.stepDefinitioins.LoingTestSteps -   MSG  :  FireFox Browser Initiated
+[INFO ] 2020-09-05 11:43:01.606 [main] Java.reusableFunations.MethodsImplementation -   MSG  :  URL entered
+[INFO ] 2020-09-05 11:43:04.844 [main] Java.stepDefinitioins.LoingTestSteps -   MSG  :  URL entered
+[INFO ] 2020-09-05 11:43:04.860 [main] Java.reusableFunations.MethodsImplementation -   MSG  :  Title Value : Your store. Login : Login page title matching with expected
+[INFO ] 2020-09-05 11:43:07.367 [main] Java.stepDefinitioins.LoingTestSteps - XXXXXXXXXXXXXXXXXXXXXXX           -E---N---D-            XXXXXXXXXXXXXXXXXXXXXX
+[INFO ] 2020-09-05 11:43:07.367 [main] Java.stepDefinitioins.LoingTestSteps - X
+[INFO ] 2020-09-05 11:43:07.368 [main] Java.stepDefinitioins.LoingTestSteps - X
+[INFO ] 2020-09-05 11:43:07.368 [main] Java.stepDefinitioins.LoingTestSteps - X
+[INFO ] 2020-09-05 11:43:07.368 [main] Java.stepDefinitioins.LoingTestSteps - X
+[INFO ] 2020-09-05 12:10:38.815 [main] Java.stepDefinitioins.LoingTestSteps -   MSG  :  FireFox Browser Initiated
+[INFO ] 2020-09-05 12:10:39.008 [main] Java.reusableFunations.MethodsImplementation -   MSG  :  URL entered
+[INFO ] 2020-09-05 12:10:43.509 [main] Java.stepDefinitioins.LoingTestSteps -   MSG  :  URL entered
+[INFO ] 2020-09-05 12:10:43.544 [main] Java.reusableFunations.MethodsImplementation -   MSG  :  Title Value : Your store. Login : Login page title matching with expected
+[INFO ] 2020-09-05 12:10:46.033 [main] Java.stepDefinitioins.LoingTestSteps - XXXXXXXXXXXXXXXXXXXXXXX           -E---N---D-            XXXXXXXXXXXXXXXXXXXXXX
+[INFO ] 2020-09-05 12:10:46.033 [main] Java.stepDefinitioins.LoingTestSteps - X
+[INFO ] 2020-09-05 12:10:46.033 [main] Java.stepDefinitioins.LoingTestSteps - X
+[INFO ] 2020-09-05 12:10:46.033 [main] Java.stepDefinitioins.LoingTestSteps - X
+[INFO ] 2020-09-05 12:10:46.034 [main] Java.stepDefinitioins.LoingTestSteps - X

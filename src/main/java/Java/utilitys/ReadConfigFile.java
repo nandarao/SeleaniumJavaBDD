@@ -8,7 +8,7 @@ import java.util.Properties;
 
 public class ReadConfigFile {
 
-	private final String filePath = "src\\main\\java\\configration\\Configuration.properties";
+	private final String filePath = "src\\main\\java\\Java\\configration\\Configuration.properties";
 	private Properties properties;
 
 	public ReadConfigFile() {
