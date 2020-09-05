@@ -1,0 +1,48 @@
+[INFO ] 2020-09-05 17:12:35.478 [main] Java.stepDefinitioins.LoingTestSteps -   MSG  :  FireFox Browser Initiated
+[INFO ] 2020-09-05 17:12:35.493 [main] Java.reusableFunations.MethodsImplementation -   MSG  :  URL entered
+[INFO ] 2020-09-05 17:12:39.556 [main] Java.stepDefinitioins.LoingTestSteps -   MSG  :  URL entered
+[INFO ] 2020-09-05 17:12:39.568 [main] Java.reusableFunations.MethodsImplementation -   MSG  :  Title Value : Your store. Login : Login page title matching with expected
+[INFO ] 2020-09-05 17:12:42.130 [main] Java.stepDefinitioins.LoingTestSteps - XXXXXXXXXXXXXXXXXXXXXXX           -E---N---D-            XXXXXXXXXXXXXXXXXXXXXX
+[INFO ] 2020-09-05 17:12:42.130 [main] Java.stepDefinitioins.LoingTestSteps - X
+[INFO ] 2020-09-05 17:12:42.130 [main] Java.stepDefinitioins.LoingTestSteps - X
+[INFO ] 2020-09-05 17:12:42.130 [main] Java.stepDefinitioins.LoingTestSteps - X
+[INFO ] 2020-09-05 17:12:42.130 [main] Java.stepDefinitioins.LoingTestSteps - X
+[INFO ] 2020-09-05 17:12:45.575 [main] Java.stepDefinitioins.LoingTestSteps -   MSG  :  FireFox Browser Initiated
+[INFO ] 2020-09-05 17:12:46.292 [main] Java.reusableFunations.MethodsImplementation -   MSG  :  URL entered
+[INFO ] 2020-09-05 17:12:50.357 [main] Java.reusableFunations.UseWebElement -   MSG  :  UserID test-box cleared
+[INFO ] 2020-09-05 17:12:50.415 [main] Java.reusableFunations.UseWebElement -   MSG  :  UserID entered
+[INFO ] 2020-09-05 17:12:52.483 [main] Java.reusableFunations.UseWebElement -   MSG  :  Password test-box cleared
+[INFO ] 2020-09-05 17:12:52.513 [main] Java.reusableFunations.UseWebElement -   MSG  :  Password entered
+[INFO ] 2020-09-05 17:12:57.125 [main] Java.reusableFunations.UseWebElement -   MSG  :  Click on Login button
+[INFO ] 2020-09-05 17:12:57.135 [main] Java.reusableFunations.MethodsImplementation -   MSG  :  Title Value : Dashboard / nopCommerce administration : Login page title matching with expected
+[ERROR] 2020-09-05 17:12:57.374 [main] Java.reusableFunations.UseWebElement -   MSG  :  Class Name : Java.reusableFunations.UseWebElement values of -> locator : XPath,   Locator_Value : //a[contains(text(),'Logout')],   Action : click,   Action_values : null,   LogValue : Click on Logout button,   Exception Msg : Element <a href="/logout"> is not clickable at point (1263,25) because another element <div id="ajaxBusy"> obscures it
+Build info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'
+System info: host: 'C4J0PT2', ip: '10.123.82.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 72.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200117190643, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 26000, moz:profile: C:\Users\kishorenm\AppData\..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: b7997c0b-8262-4a2c-bd20-5b22695fd4cd
+[INFO ] 2020-09-05 17:12:57.382 [main] Java.reusableFunations.MethodsImplementation -   MSG  :  Title Value : Dashboard / nopCommerce administration : Login page title matching with expected
+[INFO ] 2020-09-05 17:13:23.058 [main] Java.stepDefinitioins.LoingTestSteps -   MSG  :  FireFox Browser Initiated
+[INFO ] 2020-09-05 17:13:23.079 [main] Java.reusableFunations.MethodsImplementation -   MSG  :  URL entered
+[INFO ] 2020-09-05 17:13:27.971 [main] Java.stepDefinitioins.LoingTestSteps -   MSG  :  URL entered
+[INFO ] 2020-09-05 17:13:27.979 [main] Java.reusableFunations.MethodsImplementation -   MSG  :  Title Value : Your store. Login : Login page title matching with expected
+[INFO ] 2020-09-05 17:13:30.431 [main] Java.stepDefinitioins.LoingTestSteps - XXXXXXXXXXXXXXXXXXXXXXX           -E---N---D-            XXXXXXXXXXXXXXXXXXXXXX
+[INFO ] 2020-09-05 17:13:30.431 [main] Java.stepDefinitioins.LoingTestSteps - X
+[INFO ] 2020-09-05 17:13:30.431 [main] Java.stepDefinitioins.LoingTestSteps - X
+[INFO ] 2020-09-05 17:13:30.431 [main] Java.stepDefinitioins.LoingTestSteps - X
+[INFO ] 2020-09-05 17:13:30.431 [main] Java.stepDefinitioins.LoingTestSteps - X
+[INFO ] 2020-09-05 17:13:33.803 [main] Java.stepDefinitioins.LoingTestSteps -   MSG  :  FireFox Browser Initiated
+[INFO ] 2020-09-05 17:13:34.504 [main] Java.reusableFunations.MethodsImplementation -   MSG  :  URL entered
+[INFO ] 2020-09-05 17:13:37.153 [main] Java.reusableFunations.UseWebElement -   MSG  :  UserID test-box cleared
+[INFO ] 2020-09-05 17:13:37.210 [main] Java.reusableFunations.UseWebElement -   MSG  :  UserID entered
+[INFO ] 2020-09-05 17:13:39.257 [main] Java.reusableFunations.UseWebElement -   MSG  :  Password test-box cleared
+[INFO ] 2020-09-05 17:13:39.291 [main] Java.reusableFunations.UseWebElement -   MSG  :  Password entered
+[INFO ] 2020-09-05 17:13:43.610 [main] Java.reusableFunations.UseWebElement -   MSG  :  Click on Login button
+[INFO ] 2020-09-05 17:13:43.616 [main] Java.reusableFunations.MethodsImplementation -   MSG  :  Title Value : Dashboard / nopCommerce administration : Login page title matching with expected
+[INFO ] 2020-09-05 17:13:45.240 [main] Java.reusableFunations.UseWebElement -   MSG  :  Click on Logout button
+[INFO ] 2020-09-05 17:13:45.248 [main] Java.reusableFunations.MethodsImplementation -   MSG  :  Title Value : Your store. Login : Login page title matching with expected
+[INFO ] 2020-09-05 17:13:48.145 [main] Java.stepDefinitioins.LoingTestSteps - XXXXXXXXXXXXXXXXXXXXXXX           -E---N---D-            XXXXXXXXXXXXXXXXXXXXXX
+[INFO ] 2020-09-05 17:13:48.145 [main] Java.stepDefinitioins.LoingTestSteps - X
+[INFO ] 2020-09-05 17:13:48.145 [main] Java.stepDefinitioins.LoingTestSteps - X
+[INFO ] 2020-09-05 17:13:48.145 [main] Java.stepDefinitioins.LoingTestSteps - X
+[INFO ] 2020-09-05 17:13:48.145 [main] Java.stepDefinitioins.LoingTestSteps - X
