@@ -8,28 +8,22 @@ import javax.management.RuntimeErrorException;
 import org.openqa.selenium.WebDriver;
 
 public class MethodsImplementation implements UseWebDriverElements {
-	
-	
+
 	private WebDriver driver;
 	private LocateBy by;
 	private Log log = new Log(MethodsImplementation.class.getName());
-
 
 	public MethodsImplementation(WebDriver driver) {
 		this.driver = driver;
 		this.by = new LocateBy();
 	}
 
-
-
 	public String useWebElement(LocatorsList locator, String Locator_Value, Action action, String action_values,
 			String logValue) {
-		if ( (driver==null || by==null)  ) {
-			log.error("Class Name : " + UseWebElement.class.getName() 
-					
-					+ " values of -> Driver : " + driver + ","
-					+ "   By : " + by 
-					);
+		if ((driver == null || by == null)) {
+			log.error("Class Name : " + UseWebElement.class.getName()
+
+					+ " values of -> Driver : " + driver + "," + "   By : " + by);
 			throw new RuntimeErrorException(null, "Driver & By locater are null");
 		}
 
@@ -48,44 +42,36 @@ public class MethodsImplementation implements UseWebDriverElements {
 				log.info(logValue);
 				break;
 			case getAttribute:
-				log.info("Attribute Value : "+this.driver.getTitle()+" : "+logValue);
+				log.info("Attribute Value : " + this.driver.getTitle() + " : " + logValue);
 				return this.driver.findElement(this.by.getLocater(locator, Locator_Value)).getAttribute(action_values);
 			case getText:
-				log.info("Text Value : "+this.driver.getTitle()+" : "+logValue);
+				log.info("Text Value : " + this.driver.getTitle() + " : " + logValue);
 				return this.driver.findElement(this.by.getLocater(locator, Locator_Value)).getText();
 			case get:
 				log.info(logValue);
 				this.driver.get(action_values);
 				break;
 			case getTitle:
-				log.info("Title Value : "+this.driver.getTitle()+" : "+logValue);
+				log.info("Title Value : " + this.driver.getTitle() + " : " + logValue);
 				return this.driver.getTitle();
 			default:
 				log.warn("Class Name : " + UseWebElement.class.getName() + " values of -> locator : " + locator + ","
-						+ "   Locator_Value : " + Locator_Value + ","
-						+ "   Action : " + action + ","
-						+ "   Action_values : " + action_values + ","
-						+ "   LogValue : " + logValue 
-						);
+						+ "   Locator_Value : " + Locator_Value + "," + "   Action : " + action + ","
+						+ "   Action_values : " + action_values + "," + "   LogValue : " + logValue);
 
 				return null;
 			}
 
 		} catch (Exception e) {
 			log.error("Class Name : " + UseWebElement.class.getName() + " values of -> locator : " + locator + ","
-					+ "   Locator_Value : " + Locator_Value + ","
-					+ "   Action : " + action + ","
-					+ "   Action_values : " + action_values + ","
-					+ "   LogValue : " + logValue + ","
-					+ "   Exception Msg : "
-					+ e.getMessage());
+					+ "   Locator_Value : " + Locator_Value + "," + "   Action : " + action + ","
+					+ "   Action_values : " + action_values + "," + "   LogValue : " + logValue + ","
+					+ "   Exception Msg : " + e.getMessage());
 		}
 
 		return null;
 
 	}
-
-
 
 	public List<String> useWebElements(LocateBy By, String LocatorsList_Value, Action action, String action_values,
 			String logValue) {
@@ -93,30 +79,19 @@ public class MethodsImplementation implements UseWebDriverElements {
 		return null;
 	}
 
-
-
 	public String useWebWindow() {
 		// TODO Auto-generated method stub
 		return null;
 	}
-
-
 
 	public Set<String> useWebWindows() {
 		// TODO Auto-generated method stub
 		return null;
 	}
 
-
-
 	public void frame() {
 		// TODO Auto-generated method stub
-		
+
 	}
 
-	
-	
-
-	
-	
 }
