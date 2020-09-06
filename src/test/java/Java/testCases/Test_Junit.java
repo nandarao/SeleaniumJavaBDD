@@ -15,6 +15,6 @@ import cucumber.api.junit.Cucumber;
 //		,dryRun = true
 		,monochrome = true
 		)
-public class TestRunner  {
+public class Test_Junit  {
 
 }

@@ -106,7 +106,7 @@ public class Test_Steps {
 
 	@Then("^Page title should be \"([^\"]*)\"$")
 	public void page_title_should_be(String string) throws Throwable {
-		org.junit.Assert.assertEquals(useWebDriverElements.useWebElement(null, null, Action.getTitle, null,
+		Assert.assertEquals(useWebDriverElements.useWebElement(null, null, Action.getTitle, null,
 				"Login page title matching with expected"), string);
 		this.screenShot.takeScreenshot("Pass_loginPage");
 	}
@@ -115,42 +115,42 @@ public class Test_Steps {
 	public void click_on_Logout_link() throws Throwable {
 		this.login.clickLogout();
 	}
-	
-	
+
 	@Given("^User launch \"([^\"]*)\" Browser$")
 	public void user_launch_Browser(String arg1) throws Throwable {
-	  System.out.println("User launch : "+arg1 +"Browser");
+		System.out.println("User launch : " + arg1 + "Browser");
 	}
 
 	@Given("^User opens login page with URL \"([^\"]*)\"$")
 	public void user_opens_login_page_with_URL(String arg1) throws Throwable {
-		 System.out.println("User opens login page with URL "+arg1);
+		System.out.println("User opens login page with URL " + arg1);
 	}
 
 	@Given("^User Enter UserID and Password as \"([^\"]*)\"  \"([^\"]*)\"$")
 	public void user_Enter_UserID_and_Password_as(String arg1, String arg2) throws Throwable {
-		 System.out.println("User Enter UserID and Password as "+arg1 +" : "+arg2);
+		System.out.println("User Enter UserID and Password as " + arg1 + " : " + arg2);
 	}
 
 	@Given("^User Click Login Button$")
 	public void user_Click_Login_Button() throws Throwable {
-		 System.out.println("User Click Login Button");
+		System.out.println("User Click Login Button");
 	}
 
 	@Given("^Match Page title with \"([^\"]*)\"$")
 	public void match_Page_title_with(String arg1) throws Throwable {
-		 System.out.println("Match Page title with "+arg1);
+		System.out.println("Match Page title with " + arg1);
 	}
 
 	@Given("^User Click on Logout link$")
 	public void user_Click_on_Logout_link() throws Throwable {
-		 System.out.println("User Click on Logout link");
+		System.out.println("User Click on Logout link");
 	}
 
 	@Given("^User Close browser$")
 	public void user_Close_browser() throws Throwable {
-		 System.out.println("User Close browser");
+		System.out.println("User Close browser");
 	}
+
 	@Given("^Launch the browser$")
 	public void launch_the_browser(DataTable String) throws Throwable {
 		List<List<String>> data = String.raw();
@@ -173,9 +173,9 @@ public class Test_Steps {
 		this.screenShot = new ConfigScreenshot(this.driver);
 		this.login = new LoginPage(driver);
 		this.useWebDriverElements = new MethodsImplementation(driver);
-		
+
 	}
-	
+
 	@When("^Enter UserID and Password$")
 	public void enter_UserID_and_Password(DataTable String) throws Throwable {
 		List<List<String>> data = String.raw();
@@ -186,10 +186,11 @@ public class Test_Steps {
 
 	@Given("^Launch the browser of$")
 	public void launch_the_browser_of(DataTable String) throws Throwable {
-//		List<Map<String,String>> data =  String.asMaps(String.class, String.class);
-//		List<Map<String>> data = String.asMap(String.class);
+		String Value;
+		// List<Map<String,String>> data = String.asMaps(String.class, String.class);
+		// List<Map<String>> data = String.asMap(String.class);
 		this.readConfigFile = new ReadConfigFile();
-		for (Map<String, String> data  : String.asMaps(String.class, String.class)) {
+		for (Map<String, String> data : String.asMaps(String.class, String.class)) {
 			if (data.get("BrowserType").contains("FF")) {
 				System.setProperty("webdriver.gecko.driver", this.readConfigFile.getFireFOXDriverPath());
 				this.driver = new FirefoxDriver();
@@ -211,38 +212,41 @@ public class Test_Steps {
 			this.login.enterUserName(data.get("UserID"));
 			this.login.enterPassword(data.get("Password"));
 			this.login.clickLogin();
-			Assert.assertEquals(useWebDriverElements.useWebElement(null, null, Action.getTitle, null,
-					"Login page title matching with expected"), data.get("HomeTitle"));
+			Value = useWebDriverElements.useWebElement(null, null, Action.getTitle, null,
+					"Login page title matching with expected");
+			Assert.assertEquals(Value, data.get("HomeTitle"));
 			this.screenShot.takeScreenshot("Home_loginPage");
 			this.login.clickLogout();
-			Assert.assertEquals(useWebDriverElements.useWebElement(null, null, Action.getTitle, null,
-					"Login page title matching with expected"), data.get("LoginTitle"));
+			Value = useWebDriverElements.useWebElement(null, null, Action.getTitle, null,
+					"Login page title matching with expected");
+			Assert.assertEquals(Value, data.get("LoginTitle"));
 			this.screenShot.takeScreenshot("Pass_loginPage");
 			this.driver.close();
 		}
-		
+
 	}
 
-//	
-//	@When("^Enter UserID and Password as$")
-//	public void enter_UserID_and_Password_as(DataTable String) throws Throwable {
-////		List<Map<String, String>>data = String.asMaps(String.class, String.class);
-//		
-//		for (Map<String, String> data  : String.asMaps(String.class, String.class)) {
-//			this.login.enterUserName(data.get("UserID"));
-//			this.login.enterPassword(data.get("Password"));
-//			this.login.clickLogin();
-//			Assert.assertEquals(useWebDriverElements.useWebElement(null, null, Action.getTitle, null,
-//					"Login page title matching with expected"), data.get("HomeTitle"));
-//			this.screenShot.takeScreenshot("Home_loginPage");
-//			
-//			Assert.assertEquals(useWebDriverElements.useWebElement(null, null, Action.getTitle, null,
-//					"Login page title matching with expected"), data.get("HomeTitle"));
-//			this.screenShot.takeScreenshot("Pass_loginPage");
-//		}
-//		
-//		
-//	}
-
+	//
+	// @When("^Enter UserID and Password as$")
+	// public void enter_UserID_and_Password_as(DataTable String) throws Throwable {
+	//// List<Map<String, String>>data = String.asMaps(String.class, String.class);
+	//
+	// for (Map<String, String> data : String.asMaps(String.class, String.class)) {
+	// this.login.enterUserName(data.get("UserID"));
+	// this.login.enterPassword(data.get("Password"));
+	// this.login.clickLogin();
+	// Assert.assertEquals(useWebDriverElements.useWebElement(null, null,
+	// Action.getTitle, null,
+	// "Login page title matching with expected"), data.get("HomeTitle"));
+	// this.screenShot.takeScreenshot("Home_loginPage");
+	//
+	// Assert.assertEquals(useWebDriverElements.useWebElement(null, null,
+	// Action.getTitle, null,
+	// "Login page title matching with expected"), data.get("HomeTitle"));
+	// this.screenShot.takeScreenshot("Pass_loginPage");
+	// }
+	//
+	//
+	// }
 
 }
