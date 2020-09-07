@@ -1,6 +1,6 @@
 package Java.reusableFunations;
 
-public enum Action {
+public enum ActionTypeList {
 
 	clear,
 	click,

@@ -15,7 +15,7 @@ public class UseWebElement {
 		this.by = new LocateBy();
 	}
 
-	public String useWebElement(LocatorsList locator, String Locator_Value, Action action, String action_values,
+	public String useWebElement(LocatorsList locator, String Locator_Value, ActionTypeList  action, String action_values,
 			String logValue) {
 		if ( (driver==null || by==null)  ) {
 			log.error("Class Name : " + UseWebElement.class.getName() 

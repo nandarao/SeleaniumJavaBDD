@@ -18,7 +18,7 @@ public class MethodsImplementation implements UseWebDriverElements {
 		this.by = new LocateBy();
 	}
 
-	public String useWebElement(LocatorsList locator, String Locator_Value, Action action, String action_values,
+	public String useWebElement(LocatorsList locator, String Locator_Value, ActionTypeList action, String action_values,
 			String logValue) {
 		if ((driver == null || by == null)) {
 			log.error("Class Name : " + UseWebElement.class.getName()
@@ -73,7 +73,7 @@ public class MethodsImplementation implements UseWebDriverElements {
 
 	}
 
-	public List<String> useWebElements(LocateBy By, String LocatorsList_Value, Action action, String action_values,
+	public List<String> useWebElements(LocateBy By, String LocatorsList_Value, ActionTypeList action, String action_values,
 			String logValue) {
 		// TODO Auto-generated method stub
 		return null;

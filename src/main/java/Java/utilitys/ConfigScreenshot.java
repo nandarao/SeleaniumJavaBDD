@@ -41,7 +41,7 @@ public class ConfigScreenshot {
 		}
 
 		// System.out.println(this.readConfigFile.getScreenshotPath());
-		this.dateFormat = new SimpleDateFormat("_yyy_MM_dd__hh_mm_ss").format(new Date());
+		this.dateFormat = new SimpleDateFormat("_yyy_MM_dd__hh_mm_ss_SSS").format(new Date());
 		this.foldarPath = this.readConfigFile.getScreenshotPath();
 		File screenshot = ((TakesScreenshot) this.driver).getScreenshotAs(OutputType.FILE);
 		File foldarPathLoc = new File(this.foldarPath + screenshotName + this.dateFormat + ".png");

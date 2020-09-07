@@ -2,7 +2,7 @@ package Java.pageObjects;
 
 import org.openqa.selenium.WebDriver;
 
-import Java.reusableFunations.Action;
+import Java.reusableFunations.ActionTypeList;
 import Java.reusableFunations.LocatorsList;
 import Java.reusableFunations.Log;
 import Java.reusableFunations.UseWebElement;
@@ -24,9 +24,9 @@ public class LoginPage {
 	}
 
 	public void enterUserName(String UserNameValue) {
-		this.useWebElements.useWebElement(LocatorsList.Id, textbox_username_id, Action.clear, null,
+		this.useWebElements.useWebElement(LocatorsList.Id, textbox_username_id, ActionTypeList.clear, null,
 				"UserID test-box cleared");
-		this.useWebElements.useWebElement(LocatorsList.Id, textbox_username_id, Action.sendKeys, UserNameValue,
+		this.useWebElements.useWebElement(LocatorsList.Id, textbox_username_id, ActionTypeList.sendKeys, UserNameValue,
 				"UserID entered");
 		try {
 			Thread.sleep(2000);
@@ -37,19 +37,19 @@ public class LoginPage {
 	}
 
 	public void enterPassword(String PasswordValue) {
-		this.useWebElements.useWebElement(LocatorsList.Id, testbox_password_id, Action.clear, null,
+		this.useWebElements.useWebElement(LocatorsList.Id, testbox_password_id, ActionTypeList.clear, null,
 				"Password test-box cleared");
-		this.useWebElements.useWebElement(LocatorsList.Id, testbox_password_id, Action.sendKeys, PasswordValue,
+		this.useWebElements.useWebElement(LocatorsList.Id, testbox_password_id, ActionTypeList.sendKeys, PasswordValue,
 				"Password entered");
 	}
 
 	public void clickLogin() {
-		this.useWebElements.useWebElement(LocatorsList.XPath, click_login_xpath, Action.click, null,
+		this.useWebElements.useWebElement(LocatorsList.XPath, click_login_xpath, ActionTypeList.click, null,
 				"Click on Login button");
 	}
 
 	public void clickLogout() {
-		this.useWebElements.useWebElement(LocatorsList.XPath, click_logout_xpath, Action.click, null,
+		this.useWebElements.useWebElement(LocatorsList.XPath, click_logout_xpath, ActionTypeList.click, null,
 				"Click on Logout button");
 	}
 

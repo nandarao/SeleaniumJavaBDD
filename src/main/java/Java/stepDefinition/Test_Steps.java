@@ -10,26 +10,51 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 import Java.pageObjects.LoginPage;
-import Java.reusableFunations.Action;
+import Java.reusableFunations.ActionTypeList;
 import Java.reusableFunations.Log;
 import Java.reusableFunations.MethodsImplementation;
 import Java.reusableFunations.UseWebDriverElements;
 import Java.utilitys.ConfigScreenshot;
 import Java.utilitys.ReadConfigFile;
 import cucumber.api.DataTable;
+import cucumber.api.java.After;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 
 public class Test_Steps {
 
-	private WebDriver driver;
+	private WebDriver driver=null;
 	private ReadConfigFile readConfigFile;
 	private Log log = new Log(Test_Steps.class.getName());
 	private UseWebDriverElements useWebDriverElements;
 	public ConfigScreenshot screenShot;
 	// private ReadWriteExcelData readExcelData;
 	private LoginPage login;
+	
+//	@Before
+//	public void beforeSecnarios() {
+//		readConfigFile = new ReadConfigFile();
+//		System.setProperty("webdriver.gecko.driver", this.readConfigFile.getFireFOXDriverPath());
+//		this.driver = new FirefoxDriver();
+//		this.useWebDriverElements = new MethodsImplementation(this.driver);
+//		this.screenShot = new ConfigScreenshot(this.driver);
+//		log.info("FireFox Browser Initiated");
+//	
+//	}
+	
+	@After
+	public void afterScenarios() {
+		try {
+			if (this.driver!=null) {
+				this.driver.close();
+			}
+			
+		} catch (Exception e) {
+			log.error("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"+e.getMessage());
+		}
+	}
+	
 
 	@Given("^launch the browser$")
 	public void launch_the_browser() throws Throwable {
@@ -39,11 +64,12 @@ public class Test_Steps {
 		this.useWebDriverElements = new MethodsImplementation(driver);
 		this.screenShot = new ConfigScreenshot(this.driver);
 		log.info("FireFox Browser Initiated");
+		System.out.println("Start");
 	}
 
 	@When("^Open login page with URL$")
 	public void open_login_page_with_URL() throws Throwable {
-		this.useWebDriverElements.useWebElement(null, null, Action.get, this.readConfigFile.getApplicationURL(),
+		this.useWebDriverElements.useWebElement(null, null, ActionTypeList.get, this.readConfigFile.getApplicationURL(),
 				"URL entered");
 		log.info("URL entered");
 
@@ -52,7 +78,7 @@ public class Test_Steps {
 	@Then("^verify login page header$")
 	public void verify_login_page_header() throws Throwable {
 
-		Assert.assertEquals(useWebDriverElements.useWebElement(null, null, Action.getTitle, null,
+		Assert.assertEquals(useWebDriverElements.useWebElement(null, null, ActionTypeList.getTitle, null,
 				"Login page title matching with expected"), "Your store. Login");
 		this.screenShot.takeScreenshot("Pass_loginPage");
 	}
@@ -89,7 +115,7 @@ public class Test_Steps {
 
 	@When("^open login page with URL : \"([^\"]*)\"$")
 	public void open_login_page_with_URL(String string) throws Throwable {
-		this.useWebDriverElements.useWebElement(null, null, Action.get, string, "URL entered");
+		this.useWebDriverElements.useWebElement(null, null, ActionTypeList.get, string, "URL entered");
 	}
 
 	@When("^Enter UserID and Password as \"([^\"]*)\"  \"([^\"]*)\"$")
@@ -106,7 +132,7 @@ public class Test_Steps {
 
 	@Then("^Page title should be \"([^\"]*)\"$")
 	public void page_title_should_be(String string) throws Throwable {
-		Assert.assertEquals(useWebDriverElements.useWebElement(null, null, Action.getTitle, null,
+		Assert.assertEquals(useWebDriverElements.useWebElement(null, null, ActionTypeList.getTitle, null,
 				"Login page title matching with expected"), string);
 		this.screenShot.takeScreenshot("Pass_loginPage");
 	}
@@ -208,22 +234,23 @@ public class Test_Steps {
 			this.screenShot = new ConfigScreenshot(this.driver);
 			this.login = new LoginPage(driver);
 			this.useWebDriverElements = new MethodsImplementation(driver);
-			this.useWebDriverElements.useWebElement(null, null, Action.get, data.get("URL"), "URL entered");
+			this.useWebDriverElements.useWebElement(null, null, ActionTypeList.get, data.get("URL"), "URL entered");
 			this.login.enterUserName(data.get("UserID"));
 			this.login.enterPassword(data.get("Password"));
 			this.login.clickLogin();
-			Value = useWebDriverElements.useWebElement(null, null, Action.getTitle, null,
+			Value = useWebDriverElements.useWebElement(null, null, ActionTypeList.getTitle, null,
 					"Login page title matching with expected");
 			Assert.assertEquals(Value, data.get("HomeTitle"));
 			this.screenShot.takeScreenshot("Home_loginPage");
 			this.login.clickLogout();
-			Value = useWebDriverElements.useWebElement(null, null, Action.getTitle, null,
+			Value = useWebDriverElements.useWebElement(null, null, ActionTypeList.getTitle, null,
 					"Login page title matching with expected");
 			Assert.assertEquals(Value, data.get("LoginTitle"));
 			this.screenShot.takeScreenshot("Pass_loginPage");
 			this.driver.close();
 		}
-
+		
+		
 	}
 
 	//
