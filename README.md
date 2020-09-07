@@ -5,5 +5,5 @@ Selenium Project below are the used lang
 3. GitHub
 4. Maven
 5. Jenkins
-6. cucumber
+6. cucumber Junit
 7. PageObject framework
