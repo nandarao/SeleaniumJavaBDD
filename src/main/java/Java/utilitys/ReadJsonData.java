@@ -1,15 +1,5 @@
 package Java.utilitys;
 
-import java.io.BufferedReader;
-import java.io.FileNotFoundException;
-import java.io.FileReader;
-import java.io.IOException;
-import java.util.Arrays;
-import java.util.List;
-
-import Java.dataVeriables.LoginVeriablesData;
-import io.cucumber.messages.internal.com.google.gson.Gson;
-
 public class ReadJsonData {
 	/*private ReadConfigFile readConfigFile;
 	
@@ -56,5 +46,8 @@ public class ReadJsonData {
 //		return loginValues.stream().filter(X->X.userID.equalsIgnoreCase(value)).findAny().get();
 	}
 	*/
+	
+
+	
 
 }
